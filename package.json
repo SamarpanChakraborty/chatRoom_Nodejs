@@ -1,0 +1,25 @@
+{
+  "name": "chatroom",
+  "version": "1.0.0",
+  "description": "Simple Chat room for the user in local server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamarpanChakraborty/chatRoom_Nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamarpanChakraborty/chatRoom_Nodejs/issues"
+  },
+  "homepage": "https://github.com/SamarpanChakraborty/chatRoom_Nodejs#readme",
+  "dependencies": {
+    "finalhandler": "^1.0.3",
+    "serve-static": "^1.12.3",
+    "websocket": "^1.0.24"
+  }
+}
